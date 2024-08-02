@@ -1,0 +1,52 @@
+.game-container {
+    height: auto;
+    border: 1px solid black;
+    padding: 25px 15px;
+    border-radius: 5px;
+
+    p {
+        margin: 5px 0;
+    }
+
+    .header {
+        h2 {
+            margin: 0;
+        }
+        hr {
+            height: 1px;
+            background-color: black;
+            border: none;
+        }
+    }
+
+    .player {
+        margin: 15px 0;
+
+        .point-container {
+            display: flex;
+            flex-direction: row;
+            .points {
+                width: 60px;
+                height: 15px;
+                background-color: rgb(12, 90, 158);
+                border: 1px solid black;
+                margin-right: 3px;
+
+                &.maroon {
+                    background-color: maroon;
+                }
+            }
+        }
+        .text-point {
+            font-size: small;
+        }
+    }
+
+    .btn-container {
+        button {
+            margin-right: 10px;
+            cursor: pointer;
+            padding: 3px 10px;
+        }
+    }
+}
